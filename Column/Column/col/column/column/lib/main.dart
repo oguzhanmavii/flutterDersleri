@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: MyColumn(),
     );
@@ -25,80 +25,116 @@ class _MyColumnState extends State<MyColumn> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Center(child: Text("Column")),
-      ),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
+      body: ListView(
         children: [
           Container(
             width: 50,
-            height: 60,
-            color: Colors.amber,
-            child: Center(child: Text("K1", style: TextStyle(fontSize: 20))),
-          ),
-          Container(
-            width: 50,
-            height: 60,
-            color: Colors.green,
-            child: Icon(
-              Icons.thumb_up_sharp,
-              size: 50,
-            ),
-          ),
-          Container(
-            width: 50,
-            height: 60,
-            color: Colors.blue,
-            child: Center(child: Text("K2", style: TextStyle(fontSize: 20))),
-          ),
-          Container(
-            width: 50,
-            height: 60,
+            height: 50,
             color: Colors.red,
-            child: Center(child: Text("K3", style: TextStyle(fontSize: 20))),
+            child: const Center(
+                child: Text(
+              "ListView",
+              style: TextStyle(fontSize: 40),
+            )),
           ),
-          Container(
-            width: 50,
-            height: 60,
-            color: Colors.white,
-            child: Center(child: Text("K4", style: TextStyle(fontSize: 20))),
+          const ListTile(
+            iconColor: Colors.red,
+            textColor: Colors.green,
+            leading: Icon(Icons.person),
+            title: Text("Oğuzhan Mavi"),
+            subtitle: Text("Bilgisayar Mühendisliği"),
           ),
-          Container(
-            width: 50,
-            height: 60,
-            color: Colors.black54,
-            child: Center(child: Text("K5", style: TextStyle(fontSize: 20))),
+          const ListTile(
+            iconColor: Colors.red,
+            textColor: Colors.green,
+            leading: Icon(Icons.person),
+            title: Text("Oğuzhan Mavi"),
+            subtitle: Text("Bilgisayar Mühendisliği"),
           ),
-          Container(
-            width: 50,
-            height: 60,
-            color: Colors.purple,
-            child: IconButton(
-              onPressed: () {
-                print("Butona Tiklandi");
-              },
-              icon: Icon(Icons.add),
-            ),
+          const ListTile(
+            iconColor: Colors.red,
+            textColor: Colors.green,
+            leading: Icon(Icons.person),
+            title: Text("Oğuzhan Mavi"),
+            subtitle: Text("Bilgisayar Mühendisliği"),
           ),
-          Container(
-            width: 50,
-            height: 60,
-            color: Colors.amber,
-            child: Center(child: Text("K7", style: TextStyle(fontSize: 20))),
+          const ListTile(
+            iconColor: Colors.red,
+            textColor: Colors.green,
+            leading: Icon(Icons.person),
+            title: Text("Oğuzhan Mavi"),
+            subtitle: Text("Bilgisayar Mühendisliği"),
           ),
-          Container(
-            width: 50,
-            height: 60,
-            color: Colors.green,
-            child: Center(child: Text("K8", style: TextStyle(fontSize: 20))),
+          const ListTile(
+            iconColor: Colors.red,
+            textColor: Colors.green,
+            leading: Icon(Icons.person),
+            title: Text("Oğuzhan Mavi"),
+            subtitle: Text("Bilgisayar Mühendisliği"),
           ),
-          Container(
-            width: 50,
-            height: 60,
-            color: Colors.pink,
-            child: Center(child: Text("K9", style: TextStyle(fontSize: 20))),
-          )
+          const ListTile(
+            iconColor: Colors.red,
+            textColor: Colors.green,
+            leading: Icon(Icons.person),
+            title: Text("Oğuzhan Mavi"),
+            subtitle: Text("Bilgisayar Mühendisliği"),
+          ),
+          const ListTile(
+            iconColor: Colors.red,
+            textColor: Colors.green,
+            leading: Icon(Icons.person),
+            title: Text("Oğuzhan Mavi"),
+            subtitle: Text("Bilgisayar Mühendisliği"),
+          ),
+          const ListTile(
+            iconColor: Colors.red,
+            textColor: Colors.green,
+            leading: Icon(Icons.person),
+            title: Text("Oğuzhan Mavi"),
+            subtitle: Text("Bilgisayar Mühendisliği"),
+          ),
+          const ListTile(
+            iconColor: Colors.red,
+            textColor: Colors.green,
+            leading: Icon(Icons.person),
+            title: Text("Oğuzhan Mavi"),
+            subtitle: Text("Bilgisayar Mühendisliği"),
+          ),
+          const ListTile(
+            iconColor: Colors.red,
+            textColor: Colors.green,
+            leading: Icon(Icons.person),
+            title: Text("Oğuzhan Mavi"),
+            subtitle: Text("Bilgisayar Mühendisliği"),
+          ),
+          const ListTile(
+            iconColor: Colors.red,
+            textColor: Colors.green,
+            leading: Icon(Icons.person),
+            title: Text("Oğuzhan Mavi"),
+            subtitle: Text("Bilgisayar Mühendisliği"),
+          ),
+          const ListTile(
+            iconColor: Colors.red,
+            textColor: Colors.green,
+            leading: Icon(Icons.person),
+            title: Text("Oğuzhan Mavi"),
+            subtitle: Text("Bilgisayar Mühendisliği"),
+          ),
+          const ListTile(
+            iconColor: Colors.red,
+            textColor: Colors.green,
+            leading: Icon(Icons.person),
+            title: Text("Oğuzhan Mavi"),
+            subtitle: Text("Bilgisayar Mühendisliği"),
+          ),
+          const ListTile(
+            iconColor: Colors.red,
+            textColor: Colors.green,
+            leading: Icon(Icons.person),
+            title: Text("Oğuzhan Mavi"),
+            subtitle: Text("Bilgisayar Mühendisliği"),
+          ),
         ],
       ),
     );
