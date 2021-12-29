@@ -1,6 +1,6 @@
 {
-    "name": "column",
-    "short_name": "column",
+    "name": "row",
+    "short_name": "row",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
